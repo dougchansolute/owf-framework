@@ -7,12 +7,20 @@ GEM
       fssm (>= 0.2.7)
       sass (~> 3.1)
     fssm (0.2.9)
+    puma (3.11.0)
+    rack (1.6.8)
     sass (3.1.3)
 
 PLATFORMS
   ruby
+  x64-mingw32
   x86-mingw32
 
 DEPENDENCIES
   compass (= 0.11.7)
+  puma (~> 3.4)
+  rack (~> 1.6, >= 1.6.4)
   sass (= 3.1.3)
+
+BUNDLED WITH
+   1.16.0
